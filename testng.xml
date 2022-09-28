@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" data-provider-thread-count="3">
+<listeners>
+		<listener class-name="com.cx.listeners.ListenerClass" />
+		<listener class-name="com.cx.listeners.MethodInteceptor" />
+		<listener
+			class-name="com.cx.listeners.AnnotationTransformer" />
+	</listeners>
+  <test thread-count="3" name="Test" parallel='methods'>
+    <classes>
+      <class name="com.cx.tests.LoginPageTest"/>
+      <class name="com.cx.tests.HomePageTest"/>
+      <class name="com.cx.tests.DiscussionPageTest"/>
+      <class name="com.cx.tests.TasksPageTest"/>
+      <class name="com.cx.tests.ProjectDetailsPageTest"/>
+      
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

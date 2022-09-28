@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-28T18:45:04 IST" name="Suite" finished-at="2022-09-28T18:46:52 IST" duration-ms="107514">
+    <groups>
+    </groups>
+    <test started-at="2022-09-28T18:45:04 IST" name="Test" finished-at="2022-09-28T18:46:52 IST" duration-ms="107514">
+      <class name="com.cx.tests.ProjectDetailsPageTest">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.cx.tests.ProjectDetailsPageTest@247310d0]" started-at="2022-09-28T18:45:06 IST" name="setUp" finished-at="2022-09-28T18:45:32 IST" duration-ms="26142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@6be25526]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.cx.tests.ProjectDetailsPageTest@247310d0]" started-at="2022-09-28T18:45:06 IST" name="setUp" finished-at="2022-09-28T18:45:31 IST" duration-ms="24759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@42435b98]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.cx.tests.ProjectDetailsPageTest@247310d0]" started-at="2022-09-28T18:45:06 IST" name="setUp" finished-at="2022-09-28T18:45:31 IST" duration-ms="24880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@66ba7e45]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="GeneralDetailsTabTest(java.util.Map)[pri:0, instance:com.cx.tests.ProjectDetailsPageTest@247310d0]" started-at="2022-09-28T18:45:31 IST" name="GeneralDetailsTabTest" description="Check enter details in general details update or not" data-provider="getData" finished-at="2022-09-28T18:46:23 IST" duration-ms="51594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{projectname=, keywords=, aboutbusiness=Since 2000, industry=Computer Parts, testname=GeneralDetailsTabTest, execute=yes, projectwebsite=, password=123456, website1=, headquarter=Delhi, website2=, service=Repairing of computers, browser=chrome, name=, comment=, website3=, share=, username=nikhil@2stallions.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GeneralDetailsTabTest -->
+        <test-method signature="SEODetailsTabTest(java.util.Map)[pri:0, instance:com.cx.tests.ProjectDetailsPageTest@247310d0]" started-at="2022-09-28T18:45:31 IST" name="SEODetailsTabTest" description="Check enter tab in seodetails update or not" data-provider="getData" finished-at="2022-09-28T18:46:10 IST" duration-ms="39049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{projectname=, keywords=Analysis of computer, aboutbusiness=, industry=, testname=SEODetailsTabTest, execute=yes, projectwebsite=, password=123456, website1=www.123456.com, headquarter=, website2=www.654321.com, service=, browser=chrome, name=, comment=, website3=www.987654.com, share=Nothing much related to computer, username=nikhil@2stallions.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SEODetailsTabTest -->
+        <test-method signature="ProjectDetailsTabTest(java.util.Map)[pri:0, instance:com.cx.tests.ProjectDetailsPageTest@247310d0]" started-at="2022-09-28T18:45:32 IST" name="ProjectDetailsTabTest" description="Check enter details in project details update or not" data-provider="getData" finished-at="2022-09-28T18:46:08 IST" duration-ms="35335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{projectname=Today Automation Testing, keywords=, aboutbusiness=, industry=, testname=ProjectDetailsTabTest, execute=yes, projectwebsite=www.todayauto.com, password=123456, website1=, headquarter=, website2=, service=, browser=chrome, name=Roger Smith, comment=, website3=, share=, username=nikhil@2stallions.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProjectDetailsTabTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cx.tests.ProjectDetailsPageTest@247310d0]" started-at="2022-09-28T18:46:08 IST" name="tearDown" finished-at="2022-09-28T18:46:22 IST" duration-ms="14580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cx.tests.ProjectDetailsPageTest@247310d0]" started-at="2022-09-28T18:46:10 IST" name="tearDown" finished-at="2022-09-28T18:46:22 IST" duration-ms="11791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.cx.tests.ProjectDetailsPageTest@247310d0]" started-at="2022-09-28T18:46:22 IST" name="setUp" finished-at="2022-09-28T18:46:32 IST" duration-ms="10474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@70e02081]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cx.tests.ProjectDetailsPageTest@247310d0]" started-at="2022-09-28T18:46:23 IST" name="tearDown" finished-at="2022-09-28T18:46:32 IST" duration-ms="9412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="TrackingTabTest(java.util.Map)[pri:0, instance:com.cx.tests.ProjectDetailsPageTest@247310d0]" started-at="2022-09-28T18:46:32 IST" name="TrackingTabTest" description="Check enter tab in tracking update or not" data-provider="getData" finished-at="2022-09-28T18:46:52 IST" duration-ms="19105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{projectname=, keywords=, aboutbusiness=, industry=, testname=TrackingTabTest, execute=yes, projectwebsite=, password=123456, website1=, headquarter=, website2=, service=, browser=chrome, name=, comment=, website3=, share=, username=nikhil@2stallions.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TrackingTabTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cx.tests.ProjectDetailsPageTest@247310d0]" started-at="2022-09-28T18:46:52 IST" name="tearDown" finished-at="2022-09-28T18:46:52 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cx.tests.ProjectDetailsPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
